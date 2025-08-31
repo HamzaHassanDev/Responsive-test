@@ -1,0 +1,236 @@
+/*  */
+.iconhead {
+    position: fixed;
+    left: 14px;
+    bottom: 12px;
+    padding: 0.7%;
+
+
+}
+
+
+
+.icon {
+    transition: 0.3s;
+    font-size: 30px;
+    color : rgb(201, 179, 139);
+    
+}
+
+.icon:hover {
+    color : rgb(78, 70, 55);
+}
+
+
+
+/* PC + TV */
+
+@media screen and (min-width:769px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(49, 41, 30);
+    }
+
+
+    .linkshead {
+        text-align: center;
+        list-style: none;
+    }
+
+    .links {
+        display: inline-block;
+        padding: 2% 5%;
+    }
+
+    .link {
+        transition: 0.5s;
+        text-decoration: none;
+        color: rgb(201, 179, 139);
+        font-size: 30px;
+        font-family: "Federant", serif;
+
+    }
+    
+    .link:hover {
+        color: black;
+        font-size: 35px  
+    }
+
+    .texthead {
+        text-align: center;
+        margin-top: 14%;
+        padding: 0;
+    }
+
+    span {
+        color :  rgb(201, 179, 139);
+        font-size: 45px;
+        padding: 0 0.2%;
+
+
+    }
+
+    .specialtext {
+        transition: 0.4s;
+    }
+
+    .specialtext:hover {
+        color: rgb(105, 95, 79);
+        
+    }
+        .iconhead {
+        display: none;
+    }
+
+
+ 
+}
+
+
+
+/* Large Tablet */
+
+
+
+@media screen and (min-width : 401px) and (max-width : 768px) {
+    body {
+
+        background-color: rgb(49, 41, 30);
+    }
+
+    .linkshead {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+    }
+
+    .links {
+        display: inline-block;
+        padding: 6% 6%;
+    }
+
+    .link {
+        transition: 0.5s;
+        text-decoration: none;
+        font-size: 30px;
+        color: rgb(201, 179, 139);
+        font-family: "Federant", serif;
+
+
+    }
+
+    .link:hover {
+        font-size: 32px;
+        color: rgb(78, 70, 55);
+    }
+
+    .texthead {
+        
+        padding: 0;
+        margin-top : 30%;
+        text-align: center;
+
+    }
+
+    .text {
+        color: rgb(201, 179, 139);
+        font-size: 40px;
+        padding: 0 1%;
+    }
+
+    .specialtext {
+        transition: 0.5s;
+        color : rgb(201, 179, 139);
+        font-size: 40px;
+    }
+
+    .specialtext:hover {
+        color : rgb(78, 70, 55);
+        font-size: 42px;
+    }
+    .iconhead {
+        display: none;
+    }
+
+
+
+/* Small Tablet */
+
+
+
+@media screen and (min-width : 401px) and (max-width : 590px) {
+    .iconhead {
+        display: none;
+    }
+
+
+    .links {
+        display: inline-block;
+        padding: 6% 4%;
+    }
+
+    .link {
+        transition: 0.5s;
+        text-decoration: none;
+        font-size: 24px;
+        color: rgb(201, 179, 139);
+        font-family: "Federant", serif;
+
+    }
+
+    .texthead {
+        
+        padding: 0;
+        margin-top : 40%;
+        text-align: center;
+
+    }
+
+    .text {
+        color: rgb(201, 179, 139);
+        font-size: 40px;
+        padding: 0 1.5%;
+    }
+}
+
+/* Large Tablet */
+
+
+
+@media screen and (max-width : 400px) {
+
+    .linkshead {
+        display: none;
+    }
+    body {
+
+        background-color: rgb(49, 41, 30);
+    }
+
+    .texthead {
+        
+        padding: 0;
+        margin-top : 30%;
+        text-align: center;
+
+    }
+
+    .text {
+        color: rgb(201, 179, 139);
+        font-size: 40px;
+        padding: 0 1%;
+    }
+
+    .specialtext {
+        transition: 0.5s;
+        color : rgb(201, 179, 139);
+        font-size: 40px;
+    }
+
+    .specialtext:hover {
+        color : rgb(78, 70, 55);
+        font-size: 42px;
+    }
+}
