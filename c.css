@@ -40,32 +40,32 @@
 
     .links {
         display: inline-block;
-        padding: 2% 5%;
+        padding: 2% 8%;
     }
 
     .link {
         transition: 0.5s;
         text-decoration: none;
         color: rgb(201, 179, 139);
-        font-size: 30px;
+        font-size: 150%;
         font-family: "Federant", serif;
 
     }
     
     .link:hover {
         color: black;
-        font-size: 35px  
+        font-size: 165%;  
     }
 
     .texthead {
         text-align: center;
-        margin-top: 14%;
+        margin-top: 15%;
         padding: 0;
     }
 
     span {
         color :  rgb(201, 179, 139);
-        font-size: 45px;
+        font-size: 245%;
         padding: 0 0.2%;
 
 
@@ -77,16 +77,15 @@
 
     .specialtext:hover {
         color: rgb(105, 95, 79);
+        font-size: 255%;
         
     }
-        .iconhead {
+    .menubar {
         display: none;
-    }
-
+}
 
  
 }
-
 
 
 /* Large Tablet */
@@ -114,7 +113,7 @@
     .link {
         transition: 0.5s;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 135%;
         color: rgb(201, 179, 139);
         font-family: "Federant", serif;
 
@@ -122,7 +121,7 @@
     }
 
     .link:hover {
-        font-size: 32px;
+        font-size: 145%;
         color: rgb(78, 70, 55);
     }
 
@@ -136,35 +135,46 @@
 
     .text {
         color: rgb(201, 179, 139);
-        font-size: 40px;
+        font-size: 200%;
         padding: 0 1%;
     }
 
     .specialtext {
         transition: 0.5s;
         color : rgb(201, 179, 139);
-        font-size: 40px;
+        font-size: 200%;
     }
 
     .specialtext:hover {
         color : rgb(78, 70, 55);
-        font-size: 42px;
+        font-size: 210%;
     }
-    .iconhead {
+    .menubar {
         display: none;
-    }
-
+}
+}
 
 
 /* Small Tablet */
 
 
 
+
 @media screen and (min-width : 401px) and (max-width : 590px) {
-    .iconhead {
-        display: none;
+
+    body {
+
+        
+
+        background-color: rgb(49, 41, 30);
     }
 
+    .linkshead {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+    }
 
     .links {
         display: inline-block;
@@ -174,10 +184,16 @@
     .link {
         transition: 0.5s;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 120%;
         color: rgb(201, 179, 139);
         font-family: "Federant", serif;
 
+
+    }
+
+    .link:hover {
+        font-size: 125%;
+        color: rgb(78, 70, 55);
     }
 
     .texthead {
@@ -190,47 +206,24 @@
 
     .text {
         color: rgb(201, 179, 139);
-        font-size: 40px;
-        padding: 0 1.5%;
-    }
-}
-
-/* Large Tablet */
-
-
-
-@media screen and (max-width : 400px) {
-
-    .linkshead {
-        display: none;
-    }
-    body {
-
-        background-color: rgb(49, 41, 30);
-    }
-
-    .texthead {
-        
-        padding: 0;
-        margin-top : 30%;
-        text-align: center;
-
-    }
-
-    .text {
-        color: rgb(201, 179, 139);
-        font-size: 40px;
+        font-size: 200%;
         padding: 0 1%;
     }
 
     .specialtext {
         transition: 0.5s;
         color : rgb(201, 179, 139);
-        font-size: 40px;
+        font-size: 200%;  
     }
 
     .specialtext:hover {
         color : rgb(78, 70, 55);
-        font-size: 42px;
+        font-size: 205%;
+    }
+
+
+
+    .menubar {
+        display: none;
     }
 }
